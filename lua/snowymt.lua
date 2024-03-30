@@ -1109,7 +1109,7 @@ SnowyMt.load = function()
   if vim.g.colors_name then
     vim.cmd.hi("clear")
   end
-  vim.g.colors_name = "SnowyMt"
+  vim.g.colors_name = "snowymt"
   vim.o.termguicolors = true
 
   local groups = get_groups()
